@@ -6,9 +6,17 @@
   url('../images/entypo.ttf') format('truetype'),
   url('../images/entypo.svg#entypo') format('svg');
 }
+@font-face {
+  font-family: 'EntypoSocialRegular';
+  src: url('../images/entypo-social.eot');
+  src: url('../images/entypo-social.eot?#iefix') format('embedded-opentype'),
+  url('../images/entypo-social.woff') format('woff'),
+  url('../images/entypo-social.ttf') format('truetype'),
+  url('../images/entypo-social.svg#EntypoRegular') format('svg');
+}
 // Custom Styles
 body {
-  background: #fafafa;
+  background: #edf3f6;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #333;
 }
@@ -31,4 +39,30 @@ body {
 b {
   font-family: entypo;
   font-size: 60pt;
+  color: red;
+}
+.journal {
+  width: 100px;
+}
+.todo {
+  width: 100px;
+}
+.sakura {
+  width: 100px;
+}
+.icon {
+  font-family: EntypoSocialRegular;
+  font-size: 25pt;
+}
+.icon1 {
+  font-family: entypo;
+  font-size: 25pt;
+}
+#insta {
+  text-align: center;
+}
+
+
+.contact{
+  text-align: right;
 }
