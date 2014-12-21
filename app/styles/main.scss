@@ -12,7 +12,7 @@
   src: url('../images/entypo-social.eot?#iefix') format('embedded-opentype'),
   url('../images/entypo-social.woff') format('woff'),
   url('../images/entypo-social.ttf') format('truetype'),
-  url('../images/entypo-social.svg#EntypoRegular') format('svg');
+  url('../images/entypo-social.svg#entypo-social') format('svg');
 }
 // Custom Styles
 body {
@@ -36,20 +36,25 @@ body {
     letter-spacing: -1px;
   }
 }
-b {
+.emoji {
   font-family: entypo;
   font-size: 60pt;
   color: red;
 }
-.journal {
+
+.project-icons {
   width: 100px;
+  float: left;
+  margin-right: 15px;
+  margin-bottom: 5px;
+  .journal {
+  }
+  .todo {
+  }
+  .sakura {
+  }
 }
-.todo {
-  width: 100px;
-}
-.sakura {
-  width: 100px;
-}
+
 .icon {
   font-family: EntypoSocialRegular;
   font-size: 25pt;
@@ -61,8 +66,9 @@ b {
 #insta {
   text-align: center;
 }
-
-
+.aboutme {
+  text-align: left;
+}
 .contact{
-  text-align: right;
+  text-align: center;
 }
