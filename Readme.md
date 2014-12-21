@@ -11,3 +11,4 @@ You should probably update me so people looking at your code have an idea what i
 1.  git push origin2 :master
 1.  git subtree push --prefix dist  origin2 master
 1.  git checkout master
+1.  git branch -D test
